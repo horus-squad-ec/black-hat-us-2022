@@ -25,6 +25,7 @@ mv kestrel-huntbook/blackhat22/* demo/
 mv kestrel-huntbook/config/stixshifter.yaml .config/kestrel/
 rm -rf kestrel-huntbook
 
-mv oc2kestrel.ipynb demo/
+mv oc2kestrel.ipynb "demo/4. Calling Kestrel via OpenC2.ipynb"
+export PYTHON_PATH=$PYTHON_PATH:`pwd`
 
 jupyter trust demo/*.ipynb
